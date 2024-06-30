@@ -1,0 +1,34 @@
+Understanding JSX and Its Conversion Process
+--------------------------------------------
+
+1. JSX AND THE DOM
+
+The DOM (Document Object Model) cannot directly understand JSX.
+
+2. ROLE OF JSX AND BABEL
+
+JSX is a syntax that looks similar to HTML.
+
+Babel, a JavaScript compiler, converts JSX into JavaScript objects.
+
+3. REACT ELEMENTS
+
+Functions like React.createElement() create React elements, which are JavaScript objects.
+
+These JavaScript objects are then converted into HTML so that the DOM can understand and render them.
+
+4. Conversion Process Overview
+------------------------------
+
+JSX: The initial syntax written by developers.
+
+Converted to JavaScript Objects: By Babel.
+
+Converted to HTML: That the DOM can render and understand.
+
+JSX -> Converted to JavaScript Objects -> HTML that the DOM understands
+
+Embedding JavaScript in JSX
+---------------------------
+
+You can write any piece of JavaScript code within JSX by enclosing it in curly braces {}.

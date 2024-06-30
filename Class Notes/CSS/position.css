@@ -1,0 +1,29 @@
+.container
+{
+    height: 1000px;
+    width: 100vw;
+    border: 1px solid black;
+    background-color: aqua;
+}
+
+.box
+{
+    height: 200px;
+    width: 200px;
+    border: 1px solid black;
+}
+
+.box1
+{
+    background-color: aquamarine;
+}
+
+.box2
+{
+    background-color: blanchedalmond;
+}
+
+.box3
+{
+    background-color: silver;
+}

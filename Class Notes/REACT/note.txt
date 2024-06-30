@@ -1,0 +1,15 @@
+Libraries vs Frameworks
+-----------------------
+
+1. Library:
+
+Provides specific tools and components, similar to raw materials for building a project.
+Can be injected anywhere within an existing project.
+
+Example: React.js
+
+2. Framework:
+
+Offers a pre-defined structure and guidelines, similar to a ready-made house layout.
+
+Example: Next.js (built on React)

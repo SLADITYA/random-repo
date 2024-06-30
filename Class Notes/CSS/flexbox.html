@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>CSS FlexBox</title>
+    <link rel="stylesheet" href="flexbox.css">
+</head>
+
+<body>
+    <!--
+        Note: Flex property is not related to size (width and height).
+    -->
+    
+    <!-- 
+        By default, flex direction is row.
+
+        If the flex direction is row, then x-axis is the main axis and y-axis is the cross axis
+
+        justify-content works on main axis and align-items works on cross axis
+
+        align-content: Aligns flex container's lines when there is extra space in the cross axis
+    -->
+
+    <!-- 
+        Order: Controls the order in which items appear in the flex box. Default order of an item is 0.
+
+        align-self: Just as align-items but works for a single flex item.
+    -->
+
+    <div class="container">
+        <div class="box1 box">Box1</div>
+        <div class="box2 box">Box2</div>
+        <div class="box3 box">Box3</div>
+    </div>
+
+    <!-- Practice: https://flexboxfroggy.com/ -->
+</body>
+
+</html>

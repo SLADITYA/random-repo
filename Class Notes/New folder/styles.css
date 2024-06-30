@@ -1,0 +1,22 @@
+/* CSS Flex Box
+
+justify-content: Works on main axis. start, center, end, space-between, space-around, space-evenly
+
+align-items: Works on cross axis. start, center, end
+
+flex-direction: row, row-reverse, column, column-reverse. Row by default. If flex-direction is row, then x axis is the main axis and y axis is the cross axis
+
+order: Elements are arranged based on the Asc order. By default the order of every element is 0. You can change them
+
+align-self: Similar to align-items but works on single item
+
+flex-wrap: no-wrap, wrap, wrap-reverse
+
+flex-flow: direction, flex-wrap
+
+align-content: Works similar to justify-content but on cross axis */
+
+/* CSS Grid Layout */
+
+
+

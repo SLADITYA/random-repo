@@ -1,0 +1,21 @@
+INTERACTIVITY b/w CLIENT and SERVER
+-----------------------------------
+
+Client makes a request for data using an API (Applcn Prog Interface) call to the server.
+
+The server looks for the data in the database and sends a response to the client.
+
+API's use some HTTP methods known as CRUD operations.
+
+C - Create    R - Read    U - Update    D - Delete
+
+HTTP methods
+------------
+
+1. GET - Getting the data
+
+2. POST - Writing the data
+
+3. PUT - Update the data
+
+4. DELETE - Delete the data

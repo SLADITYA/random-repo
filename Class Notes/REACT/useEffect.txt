@@ -1,0 +1,18 @@
+The useEffect hook in React is one of the most commonly used hooks for managing side effects in functional components. Side effects include tasks such as fetching data, directly manipulating the DOM, or setting up subscriptions.
+
+useEffect ( () => {
+    // The code you want to run (effect)
+
+    // Optional return function (cleanup)
+
+}, [dependency array])
+
+Effect Execution
+----------------
+- By default, effects run after every render, including the first render.
+- Effects are executed after the DOM has been updated.
+
+Cleanup Execution
+-----------------
+- Cleanup functions run before the effect runs again, except for the initial render.
+- For effects with no dependencies, cleanup runs when the component unmounts.

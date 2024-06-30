@@ -1,0 +1,16 @@
+DEFAULT EXPORT
+
+- You can export only one component or module from a file.
+
+NAMED EXPORT
+
+- You can export multiple components, functions, or variables from a single file.
+
+Key Points
+----------
+
+Curly Braces: Used for named imports to specify which components or functions you are importing.
+
+- import { ComponentOne } from './MyComponents';
+
+Rendering: No difference in rendering between default and named exports.

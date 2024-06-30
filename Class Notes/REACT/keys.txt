@@ -1,0 +1,46 @@
+Purpose of Keys
+---------------
+
+- Identify changes and update them in the DOM efficiently.
+- Optimize rendering performance through reconciliation.
+
+Reconciliation Process
+----------------------
+
+- When rendering a list of items, React uses keys to track changes.
+- If an item in the list changes, React updates only the modified item in the DOM.
+
+This selective updating prevents the entire list from being re-rendered, enhancing performance.
+
+Using IDs as Keys
+-----------------
+
+Advantages:
+
+- When each item in a list has a unique ID, using this ID as a key allows React to accurately identify and update only the changed items.
+- Ensures efficient and accurate rendering.
+
+Syntax: const itemList = items.map(item => <Item key={item.id} data={item} />);
+
+Using Indexes as Keys
+---------------------
+
+Drawbacks:
+
+- Not recommended because the order of items can change.
+- Changing indexes can lead to incorrect item identification, causing unnecessary re-renders and negatively impacting performance.
+
+Syntax: const itemList = items.map((item, index) => <Item key={index} data={item} />);
+
+Default Behavior Without Keys
+-----------------------------
+
+Fallback:
+
+- If no key is provided, React defaults to using indexes as keys.
+- This default behavior is not optimal for dynamic lists where items might be added, removed, or reordered.
+
+NOTE
+----
+
+Always provide a unique key for each list item to ensure optimal rendering performance and accurate DOM updates.

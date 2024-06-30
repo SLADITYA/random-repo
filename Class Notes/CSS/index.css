@@ -1,0 +1,13 @@
+/* There are 3 types of Selectors - Element, Class and Id Selector
+
+Priority of Selectors: Id Selector, Class and Element Selector
+
+Note that id must be unique. */
+
+#box-model
+{
+    background-color: aquamarine;
+    border: 1px solid blue;
+    padding: 20px;
+    margin: 10px;
+}

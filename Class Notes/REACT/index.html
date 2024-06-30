@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+
+<head>
+    <title>Document</title>
+</head>
+
+<body>
+    <div id="root">
+        <h2>Hello World using HTML</h2>
+    </div>
+
+    <div>
+        <h2>Hii</h2>
+    </div>
+
+    <script>
+        const header = document.createElement("h2");
+        header.innerText = "Hello World using JS";
+        const root = document.getElementById("root");
+        root.appendChild(header);
+    </script>
+
+    <!-- Content Delivery Network (CDN) Links: A place where you can host packages -->
+
+    <script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
+    <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+
+    <script>
+        const reactHeader = React.createElement('h2', {}, "Hello World using React");
+        // ReactDOM: Connects React Library with the HTML DOM
+        const reactRoot = ReactDOM.createRoot(document.getElementById("root"));
+        reactRoot.render(reactHeader);
+
+        /*
+
+        // Babel converts JSX to React Elements
+
+        const jsxHeader = (
+            <>
+                <div></div>
+                <h2>Hello World using React</h2>
+            </>
+        )
+        */
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>CSS Object-Fit</title>
+
+    <style>
+        .container
+        {
+            height: 300px;
+            width: 200px;
+            border: 4px solid blue;
+        }
+        .container img
+        {
+            height: 300px;
+            width: 200px;
+            object-fit: contain;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- 
+        object-fit: specifies how an <img> or <video> should be resized to fit its container.
+
+        fill (default): the image will be stretched or squished to fit the img hgt and width
+
+        contain: resized to fit within the given dimension (aspect ratio is maintained)
+
+        cover: image will be clipped to fit (aspect ratio is maintained)
+
+        none - image is not resized
+
+        scale-down: the image is scaled down to the smallest version of none or contain
+    -->
+
+    <div class="container">
+        <img src="https://www.w3schools.com/css/paris.jpg">
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,39 @@
+/*
+    grid-template-columns, grid-template-rows : the size and the no of cells within a column and row
+    
+    grid-gap: Sets Gap b/w the grid item. grid-row-gap for rows and grid-column-gap for columns
+
+    grid-column, grid-row: this property defines how many rows and columns a cell will span
+    
+    justify-items, align-items : Used to align the grid items horizontal and vertical direcns resp.
+*/
+
+/* 
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: minmax(50px, 1fr); 
+*/
+
+.grid-container 
+{
+    height: 50vh;
+    width: 50vw;
+    
+    /* Grid Properties */
+    
+    display: grid;
+    grid-template-columns: 1fr 1fr 2fr;
+    grid-template-rows: 1fr 2fr 1fr;
+    grid-gap: 10px;
+}
+
+.grid-item 
+{
+    background-color: blanchedalmond;
+    border: 3px solid red;
+    font-size: 30px;
+}
+
+.grid-container :nth-child(5)
+{
+    grid-column: 2 / 4;
+}

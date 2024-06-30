@@ -1,0 +1,18 @@
+States in React
+---------------
+
+1. State Variables
+
+- Variables that, when changed, trigger the re-rendering of the UI (refreshing the DOM).
+
+2. Hooks
+
+- Hooks were introduced to React along with functional components.
+- Simple JS functions that allow you to use state and other React features without writing a class.
+- Hooks are created using the 'use' keyword.
+
+3. useState
+
+- The useState hook is used to create state variables in functional components.
+- useState and other hooks are part of the React library.
+- State variables created with useState are essential when you need to update the variable's value in the UI.

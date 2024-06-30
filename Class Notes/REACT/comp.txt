@@ -1,0 +1,23 @@
+Components in React
+-------------------
+
+Component: A React component is a reusable piece of UI logic that can be either a JavaScript function or class, which outputs JSX to render elements on the page.
+
+1. Functional Components: The modern approach, currently in use.
+2. Class-based Components: The older method.
+
+Functional Components
+---------------------
+
+Functional components are JavaScript functions that return JSX.
+
+JSX:
+
+- Stands for JavaScript XML.
+- Not HTML, but it has an HTML-like syntax that allows us to render HTML within a JavaScript file.
+- Can only return one parent element.
+
+React Fragment:
+
+- Acts as a parent element to help avoid adding unnecessary extra nodes to the DOM.
+- Syntax: `<React.Fragment>...</React.Fragment>` or shorthand `<></>`.

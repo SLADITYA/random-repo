@@ -1,0 +1,59 @@
+.filtering-components
+{
+  display: flex;
+}
+
+.search
+{
+  margin-top: 20px;
+  margin-right: 10px;
+}
+
+.topRated
+{
+  margin-top: 20px;
+}
+
+.restaurent-container
+{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  place-items: center;
+  margin: auto;
+  margin-top: 50px;
+  width: 70%;
+}
+
+.restaurentCard
+{
+  position: relative;
+  width: 240px;
+  margin: 10px;
+}
+
+.restaurentCard:hover
+{
+  cursor: pointer;
+  transform: scale(0.95);
+  transition: linear 0.1s;
+}
+
+.restaurentCard > img 
+{
+  border-radius: 5%;
+  width: 100%;
+}
+
+.offer
+{
+  position: absolute;
+  top: 100px;
+  margin-left: 10px;
+  color: white;
+}
+
+.restaurent-details
+{
+  display: flex;
+  flex-direction: column;
+}

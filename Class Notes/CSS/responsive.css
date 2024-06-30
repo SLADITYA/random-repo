@@ -1,0 +1,30 @@
+.grid-container
+{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+}
+
+.grid-item
+{
+    background-color: blanchedalmond;
+    border: 1px solid red;
+    font-size: 30px;
+    padding: 20px;
+}
+
+@media screen and (max-width: 800px) 
+{
+    .grid-container
+    {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media screen and (max-width: 400px) 
+{
+    .grid-container
+    {
+        grid-template-columns: 1fr;
+    }
+}

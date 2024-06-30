@@ -1,0 +1,36 @@
+Properties (Props) in React
+---------------------------
+
+- Props allow data to be shared between components. They enable you to pass data from a parent component to a child component.
+
+A. Accessing Parent Component Properties from a Child Component
+
+1. Define Key-Value Pairs in the Parent Component: Assign the data as key-value pairs in the parent component.
+
+2. Pass the Key to the Child Component: Use the key to access the data within the child component.
+
+// Parent Component
+
+function ParentComponent() 
+{
+  const data = "Hello from Parent!";
+  
+  return (
+    <ChildComponent message={data} />
+  );
+}
+
+// Child Component
+
+function ChildComponent(props) 
+{
+  const { message } = props; // Destructuring props to extract 'message'
+  
+  return (
+    <div>{message}</div>
+  );
+}
+
+PROP DRILLING
+
+- Process of passing data through multiple components, which can be cumbersome in deeply nested structures.

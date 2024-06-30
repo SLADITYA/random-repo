@@ -1,0 +1,23 @@
+nav 
+{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border: 1px solid black;
+}
+
+nav > ul
+{
+  display: flex;
+}
+
+nav > ul > li
+{
+  list-style-type: none;
+  margin: 10px;
+}
+
+nav > ul > li > span
+{
+  margin-left: 5px;
+}

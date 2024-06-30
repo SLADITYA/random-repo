@@ -1,0 +1,60 @@
+<!-- HTML Forms are used to collect data from the user -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms in HTML</title>
+</head>
+
+<body>
+    <form action="">
+        <fieldset>
+            <legend>Personalia:</legend>
+
+            <label for="fname">First Name:</label>
+            <input type="text" id="fname" name="firstName" required placeholder="Your Name">
+            <br><br>
+
+            <label for="lname">Last Name:</label>
+            <input type="text" id="lname" name="lastName">
+            <br><br>
+        </fieldset>
+
+        <input type="radio" name="Gender" id="male" value="male">
+        <label for="male">Male</label>
+        <input type="radio" name="Gender" id="female" value="female">
+        <label for="female">Female</label>
+        <br><br>
+
+        <input type="checkbox" name="Language" id="HTML" value="HTML">
+        <label for="HTML">HTML</label>
+        <input type="checkbox" name="Language" id="CSS" value="CSS">
+        <label for="CSS">CSS</label>
+        <input type="checkbox" name="Language" id="JS" value="JS">
+        <label for="JS">JS</label>
+        <br><br>
+
+        <label for="email">Email Address:</label>
+        <input type="email" name="emailAddress" id="email">
+        <br><br>
+
+        <label for="vehicle">Select your Vechicle</label>
+        <select name="myVechicle" id="vehicle">
+            <option value="car">Car</option>
+            <option value="bus">Bus</option>
+            <option value="bike">Bike</option>
+        </select>
+        <br><br>
+
+        <label for="intro">Write about yourself</label> <br>
+        <textarea name="introduction" id="intro" cols="30" rows="10"></textarea>
+        <br><br>
+        
+        <input type="submit" value="Submit">
+    </form>
+</body>
+
+</html>

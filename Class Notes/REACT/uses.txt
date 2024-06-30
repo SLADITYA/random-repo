@@ -1,0 +1,22 @@
+React - Single Page Application (SPA)
+-------------------------------------
+
+A Single Page Application (SPA) is a dynamic web application designed to load a single HTML page and dynamically update that page as the user interacts with the app. Instead of reloading the entire page, SPAs replace existing components with new ones, enhancing the user experience by making interactions smoother and faster.
+
+React Fiber
+-----------
+
+React Fiber is the reimplementation of React's core algorithm, focusing on the reconciliation process. This new architecture improves the efficiency and capabilities of the framework, enabling more advanced features and better handling of updates.
+
+Reconciliation in React
+-----------------------
+
+Reconciliation is the process React uses to update the user interface efficiently:
+
+1. Real DOM: Represents the current state of the user interface.
+
+2. Virtual DOM: An in-memory representation of the real DOM that React creates.
+
+3. Diffing: When changes occur, React creates a new virtual DOM and compares it with the previous one to identify the differences.
+
+4. Updating the Real DOM: React updates only the necessary parts of the real DOM based on the identified differences, making the process faster and more efficient.
